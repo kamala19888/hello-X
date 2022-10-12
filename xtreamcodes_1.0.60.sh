@@ -368,15 +368,15 @@ echo -e "${jeshile} └───────────────────
 echo " "
 #mkdir /var/www/html
 #cd /var/www/html #DESTINACIONI KRYESOR ADMIN - TEMPLATES ETC
-cd /home/ubuntu && wget http://raw.githubusercontent.com/marconimp/xtreamcodes_1.0.60/master/go.part01.rar
-wget http://raw.githubusercontent.com/marconimp/xtreamcodes_1.0.60/master/go.part02.rar
-wget http://raw.githubusercontent.com/marconimp/xtreamcodes_1.0.60/master/go.part03.rar
-wget http://raw.githubusercontent.com/marconimp/xtreamcodes_1.0.60/master/go.part04.rar
-wget http://raw.githubusercontent.com/marconimp/xtreamcodes_1.0.60/master/go.part05.rar
-wget http://raw.githubusercontent.com/marconimp/xtreamcodes_1.0.60/master/go.part06.rar
-wget http://raw.githubusercontent.com/marconimp/xtreamcodes_1.0.60/master/go.part07.rar
-wget http://raw.githubusercontent.com/marconimp/xtreamcodes_1.0.60/master/go.part08.rar
-wget http://raw.githubusercontent.com/marconimp/xtreamcodes_1.0.60/master/go.part09.rar
+cd /home/ubuntu && wget https://raw.githubusercontent.com/kamala19888/hello-X/master/go.part01.rar
+wget https://raw.githubusercontent.com/kamala19888/hello-X/master/go.part02.rar
+wget https://raw.githubusercontent.com/kamala19888/hello-X/master/go.part03.rar
+wget https://raw.githubusercontent.com/kamala19888/hello-X/master/go.part04.rar
+wget https://raw.githubusercontent.com/kamala19888/hello-X/master/go.part05.rar
+wget https://raw.githubusercontent.com/kamala19888/hello-X/master/go.part06.rar
+wget https://raw.githubusercontent.com/kamala19888/hello-X/master/go.part07.rar
+wget https://raw.githubusercontent.com/kamala19888/hello-X/master/go.part08.rar
+wget https://raw.githubusercontent.com/kamala19888/hello-X/master/go.part09.rar
 sudo unrar x go.part01.rar
 cp -R /home/ubuntu/go/Xtream_Codes_v1.0.60_Nulled.zip  /var/www/html/
 cd /var/www/html && unzip Xtream_Codes_v1.0.60_Nulled.zip && cp /var/www/html/downloads/iptv_panel_pro.zip /tmp && chmod a+x /tmp/iptv_panel_pro.zip && cp /var/www/html/downloads/install_iptv_pro.php /root/ && cd /root && chmod a+x /root/install_iptv_pro.php && php install_iptv_pro.php
